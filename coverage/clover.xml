@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1675658471448" clover="3.2.0">
-  <project timestamp="1675658471448" name="All files">
-    <metrics statements="86" coveredstatements="52" conditionals="12" coveredconditionals="4" methods="9" coveredmethods="4" elements="107" coveredelements="60" complexity="0" loc="86" ncloc="86" packages="5" files="7" classes="7"/>
+<coverage generated="1675660669990" clover="3.2.0">
+  <project timestamp="1675660669990" name="All files">
+    <metrics statements="86" coveredstatements="50" conditionals="12" coveredconditionals="3" methods="9" coveredmethods="4" elements="107" coveredelements="57" complexity="0" loc="86" ncloc="86" packages="5" files="7" classes="7"/>
     <package name="src">
       <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="/Users/apple/Documents/nodejs/GithubAction/unique-plf/src/app.js">
@@ -48,15 +48,15 @@
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
-        <line num="8" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="9" count="2" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="3" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.routes">
-      <metrics statements="52" coveredstatements="21" conditionals="8" coveredconditionals="2" methods="5" coveredmethods="1"/>
+      <metrics statements="52" coveredstatements="19" conditionals="8" coveredconditionals="1" methods="5" coveredmethods="1"/>
       <file name="employees.js" path="/Users/apple/Documents/nodejs/GithubAction/unique-plf/src/routes/employees.js">
-        <metrics statements="52" coveredstatements="21" conditionals="8" coveredconditionals="2" methods="5" coveredmethods="1"/>
+        <metrics statements="52" coveredstatements="19" conditionals="8" coveredconditionals="1" methods="5" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -81,12 +81,12 @@
         <line num="42" count="3" type="stmt"/>
         <line num="43" count="3" type="stmt"/>
         <line num="45" count="3" type="stmt"/>
-        <line num="50" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="51" count="2" type="stmt"/>
-        <line num="52" count="2" type="stmt"/>
-        <line num="53" count="2" type="stmt"/>
-        <line num="56" count="1" type="stmt"/>
-        <line num="61" count="1" type="stmt"/>
+        <line num="50" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
         <line num="63" count="0" type="stmt"/>
         <line num="68" count="1" type="stmt"/>
         <line num="69" count="0" type="stmt"/>

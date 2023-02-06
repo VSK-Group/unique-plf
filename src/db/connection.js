@@ -5,6 +5,7 @@ let dbUrl = process.env.DB_URL;
 if (process.env.NODE_ENV === 'test') {
   dbUrl = process.env.TEST_DB_URL;
 }
+console.log("🚀 ~ file: connection.js:4 ~ dbUrl", dbUrl)
 
 const db = monk(dbUrl);
 
