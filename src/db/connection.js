@@ -6,6 +6,8 @@ if (process.env.NODE_ENV === 'test') {
   dbUrl = process.env.TEST_DB_URL;
 }
 
+console.log({ dbUrl })
+
 const db = monk(dbUrl);
 
 module.exports = db;
