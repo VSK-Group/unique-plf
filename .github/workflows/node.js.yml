@@ -40,11 +40,5 @@ jobs:
         PORT: 5000
         # DB_URL: ${{ secrets.DB_URL }}
         # TEST_DB_URL: ${{ secrets.DB_URL }}
-<<<<<<< HEAD
-        DB_URL: mongo:27017/my_employees
-        TEST_DB_URL: mongo:27017/my_employees
-=======
         DB_URL: localhost:27017/my_employees
         TEST_DB_URL: localhost:27017/my_employees
-
->>>>>>> 6c5da0cc33ea0dc6fa1df6c2f44310088e420913
